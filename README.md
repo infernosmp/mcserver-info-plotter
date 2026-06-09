@@ -59,6 +59,6 @@ MIT License – see the [LICENSE](LICENSE) file for details.
 
 ## Author
 
-**Ben Rodda**  
-Year 8 student, Perth, Western Australia  
+**NeonWardonmc**  
+Year 8 student
 Interested in IT, coding, Minecraft server management, and Roblox development.
