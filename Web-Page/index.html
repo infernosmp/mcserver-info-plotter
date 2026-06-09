@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minecraft Server Info Plotter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Minecraft Server Info Plotter</h1>
+      <p class="tagline">Visualising Minecraft server data from CSV files</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro-card">
+      <h2>Project Overview</h2>
+      <p>
+        This project reads Minecraft server data from a CSV file and plots the top 10 servers by player count, grouped by country, using Python and Matplotlib.
+      </p>
+      <ul>
+        <li>Input: <code>export.csv</code> with server data</li>
+        <li>Output: bar chart of top 10 countries by player count</li>
+        <li>Tech stack: Python, Matplotlib, CSV</li>
+      </ul>
+    </section>
+
+    <section class="details-grid">
+      <article class="card">
+        <h3>How It Works</h3>
+        <ol>
+          <li>Loads <code>export.csv</code> from the project directory.</li>
+          <li>Extracts country (column 11) and player count (column 5).</li>
+          <li>Sorts servers by player count in descending order.</li>
+          <li>Displays a bar chart of the top 10 entries.</li>
+        </ol>
+      </article>
+
+      <article class="card">
+        <h3>Getting Started</h3>
+        <p>Basic steps to run the script:</p>
+        <ol>
+          <li>Install Python 3 and Matplotlib.</li>
+          <li>Place <code>export.csv</code> next to <code>mcserverinfo.py</code>.</li>
+          <li>Run the script from PowerShell:</li>
+        </ol>
+        <pre><code>py -m pip install matplotlib
+py mcserverinfo.py</code></pre>
+      </article>
+
+      <article class="card">
+        <h3>Repository</h3>
+        <p>
+          View the source code on GitHub:
+        </p>
+        <p>
+          <a href="https://github.com/NeonWardonmc/mcserver-info-plotter" target="_blank" rel="noreferrer">
+            github.com/NeonWardonmc/mcserver-info-plotter
+          </a>
+        </p>
+      </article>
+    </section>
+
+    <section class="card">
+      <h3>Author</h3>
+      <ul class="author-list">
+        <li>Year 8 student</li>
+        <li>GitHub: <a href="https://github.com/NeonWardonmc" target="_blank" rel="noreferrer">NeonWardonmc</a></li>
+      </ul>
+      <p class="privacy-note">
+        Personal details are intentionally omitted to protect privacy.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        Minecraft Server Info Plotter · MIT License · Author: Year 8 student (NeonWardonmc)
+      </p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
