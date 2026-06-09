@@ -1,5 +1,5 @@
 # --- Matplotlib CSV Plotting Script ---
-# Made By: Ben Rodda
+# Made By: NeonWardonmc
 # Date: 09/06/2024
 # Description: This script imports data from the export.csv file which contains minecraft server info and turns it into a graph.
 # Note: The export.csv file must be in the same directory as this script for it to work.
